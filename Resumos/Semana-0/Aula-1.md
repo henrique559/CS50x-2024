@@ -22,7 +22,9 @@ O Número Hexadecimal é a mesma fórmula, porém realizando a potência de 16, 
 1 ao 9 - normal.          (Termina no 15 porque sempre começa com o zero)
 
 |10 - A  |   13 - D
+
 |11 - B  |   14 - E
+
 |12 - C  |   15 - F
 
 Um byte representa 8 bits porque apenas 1 bit é um valor muito pequeno, 8 bits representa 255 (lembre-se, começa com o 0 sempre), um valor que já é possível 

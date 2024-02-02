@@ -12,6 +12,7 @@ Normalmente, utilizamos a notação unária, que é o famoso 'contar nos dedos' 
 Pense em uma lampada que tem dois estados: ligado e desligado, e pense que cada lampada da esquerda para direita representa o 2 com potência de N (onde N representa a posição do número) e a posição das lampadas começa no 0.
 
 |1: ligado    |   2^3    2^2   2^1   2^0  |   < -Representa o N° Posição.
+
 |0: desligado |   0      0     0     0    |  (Se estiver zero você não soma, porém se estiver um você faz 2^ Posição e terá esse valor)
 
 Ou seja, se fosse 0001 teriamos somente o número 1, porém, se fosse o número 0010, teriamos o número 2, agora se você fazer 0011, terá o número 3, porque o 

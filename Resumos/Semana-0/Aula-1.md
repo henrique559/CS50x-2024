@@ -10,17 +10,19 @@ opera com transistores que tem apenas dois estados: ligado e desligado, portanto
 Normalmente, utilizamos a notação unária, que é o famoso 'contar nos dedos' e utilizando ela conseguimos contar somente até 10 utilizando duas mãos, porém, na notação binária podemos contar até 1024 nas 10 mãos, isso porque binários são uma forma muito mais eficiente de contar algo.
 
 Pense em uma lampada que tem dois estados: ligado e desligado, e pense que cada lampada da esquerda para direita representa o 2 com potência de N (onde N representa a posição do número) e a posição das lampadas começa no 0.
-1: ligado    |   2^3    2^2   2^1   2^0      < -Representa o N° Posição.
-0: desligado |   0      0     0     0      (Se estiver zero você não soma, porém se estiver um você faz 2^ Posição e terá esse valor)
+
+|1: ligado    |   2^3    2^2   2^1   2^0  |   < -Representa o N° Posição.
+|0: desligado |   0      0     0     0    |  (Se estiver zero você não soma, porém se estiver um você faz 2^ Posição e terá esse valor)
 
 Ou seja, se fosse 0001 teriamos somente o número 1, porém, se fosse o número 0010, teriamos o número 2, agora se você fazer 0011, terá o número 3, porque o 
 agora você pode somar os dois valores, por fim, o número 1111 seria o 8, porque o resultado da soma de todas as potências dos números ligados seria o 8.
 
 O Número Hexadecimal é a mesma fórmula, porém realizando a potência de 16, em vez de 2, entretanto você lida com os números de forma diferente, onde apartir do 10 os números começam a ser contados por letras, ou seja:
 1 ao 9 - normal.          (Termina no 15 porque sempre começa com o zero)
-10 - A     13 - D
-11 - B     14 - E
-12 - C     15 - F
+
+|10 - A  |   13 - D
+|11 - B  |   14 - E
+|12 - C  |   15 - F
 
 Um byte representa 8 bits porque apenas 1 bit é um valor muito pequeno, 8 bits representa 255 (lembre-se, começa com o 0 sempre), um valor que já é possível 
 ser utilizado porque tem espaço suficiente para realizar coisas.

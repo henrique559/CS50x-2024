@@ -1,10 +1,10 @@
-[CS50 - Semana 0]
+# CS50 - Semana 0
 
 Na aula da semana 0 foi apresentado o conteúdo básico para entender representações nos computadores, como números, letras, fotos entre outros,
 como também o conceito de 'algoritmo', por fim foi apresentado a 'linguagem' de programação Scratch, famosa por ser visual e ensinar conceitos de programação de 
 forma mais amigável.
 
-[Representação de números (Binário e Hexadecimal)]
+## Representação de números (Binário e Hexadecimal)
 O Computador apenas entende 0 e 1 (que na verdade não são os números em si, apenas uma abstração para representar ligado e desligado) porque toda a sua arquitetura
 opera com transistores que tem apenas dois estados: ligado e desligado, portanto, com o objetivo de representar esses dois estados, foi utilizado a notação bináriaque nada mais é uma forma de contar números diferente da forma convencional.
 Normalmente, utilizamos a notação unária, que é o famoso 'contar nos dedos' e utilizando ela conseguimos contar somente até 10 utilizando duas mãos, porém, na notação binária podemos contar até 1024 nas 10 mãos, isso porque binários são uma forma muito mais eficiente de contar algo.
@@ -25,7 +25,7 @@ O Número Hexadecimal é a mesma fórmula, porém realizando a potência de 16, 
 Um byte representa 8 bits porque apenas 1 bit é um valor muito pequeno, 8 bits representa 255 (lembre-se, começa com o 0 sempre), um valor que já é possível 
 ser utilizado porque tem espaço suficiente para realizar coisas.
 
-[Representação de letras, cores e fotos]
+## Representação de letras, cores e fotos
 No inicio de tudo, todas as letras eram representadas por binários utilizando o padrão ASCII, no qual colocava um número binário representado cada letra,
 por exemplo a letra 'a' representa o número 65 e a letra 'A' o número 97, é basicamente isso e é muito sobre decorar essas coisas.
 Porém, nasceu a necessidade de representar letras de outros tipos como kanji japoneses, letras chinesas, arabes, etc... e com isso surgiu o Unicode, que 
@@ -38,7 +38,7 @@ cada tipo tem o valor de 1 byte (8 bits), que variam de 0 a 255 bits, quanto men
 
 Imagens são compostas por vários pixels onde cada um byte e representa uma cor utilizando o RGB
 
-[Algoritmos]
+## Algoritmos
 Algoritmo é um tipo de instrução escrita de forma que seja um 'passo-a-passo' para resolver um problema de forma muito precisa, e essa é a forma que os humanos
 descobriram para manter uma comunicação com computadores que só entendem 0 e 1, utilizando um tipo de linguagem que seja mais clara e entendivel, e assim surgiu
 as linguagens de programação, que tem como objetivo resolver problemas utilizando o computador, resolver problemas em um computador apesar de parecer intuitivo
@@ -52,7 +52,7 @@ Você precisa encontrar o número de um tal de 'Carlinhos' numa lista enorme de 
 Por baixo dos panos nada mais é um algoritmo que pesquisa a lista começando pela metade, dividindo e conquistando para poder chegar da forma mais rápida
 no resultado.
 
-[Scratch]
+## Scratch
 Foi introduzido para gente uma 'linguagem' de programação visual chamada 'Scratch', que foi criada pelo MIT para ensinar conceitos de linguagens de programação 
 de forma menos abstrata e fácil para ajudar iniciantes a começar no mundo da programação, lá você pode aprender sobre estrutura de condições, estrutura de 
 repetição, variaveis, funções, etc... 

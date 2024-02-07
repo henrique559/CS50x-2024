@@ -2,7 +2,8 @@
 
 ## Linguagem C
 
-Nessa semana foi apresentado a linguagem de programação C
+Nessa semana foi apresentado a linguagem de programação C.
+
 Hello world em C:
 ```c
 #include <stdio.h>

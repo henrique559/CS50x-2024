@@ -60,12 +60,19 @@ Estrutura de condição serve para controlar o fluxo do programa.
 
 sintaxe if/else:
 if(condição)
+
 {
+
   instrução
+
 }
+
 else 
+
 {
+
   instrução
+
 }
 
 else if (condição) => aninhamento de if/elses
@@ -85,17 +92,26 @@ else
 Estrutura de repetição serve para repetir instruções em um determinado n° de vezes ou caso uma repetição seja verdadeira.
 
 sintaxe while loop:
+
 while(condição)
+
 {
   instruções
+
   incremento
+
 }
 
 sintaxe for loop:
+
 for(inicialização;condição;incremento)
+
 {
+
   instruções;
+
 }
+
 
 ex: Um programa que repete a string "Olá" 10 vezes na tela.
 

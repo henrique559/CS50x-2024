@@ -18,22 +18,22 @@ int main(void)
 Variáveis servem para guardar valores na memória.
 
 Tipos Inteiros:
-Short - 2 Bytes, tipo de formatação: %sd
+Short - `2 Bytes`, tipo de formatação: `%sd`
 
-Int - 4 Bytes, tipo de formatação: %d ou %i.
+Int - `4 Bytes`, tipo de formatação: `%d ou %i`.
 
-Long - 8 Bytes, tipo de formatação: %ld.
+Long - `8 Bytes`, tipo de formatação: `%ld`
 
 Tipos de ponto flutuante:
-Float - 8 Bytes, tipo de formatação: %f
+Float - `8 Bytes`, tipo de formatação:` %f`
 
-Double - 8 Bytes (Mais precisão), tipo de formatação: %lf
+Double - `8 Bytes (Mais precisão)`, tipo de formatação: `%lf`
 
 Caracteres:
-Char - 1 Byte, tipo de formatação: %c;
+Char - `1 Byte`, tipo de formatação: `%c`;
 
 Outros:
-Unsigned - Utilizado para descartar os números negativos. tipo de formatação: %u+tipo
+Unsigned - Utilizado para descartar os números negativos. tipo de formatação: `%u+tipo`
 
 Signed - Utilizado para utilizar números negativos. (Meio desnecessário)
 
@@ -51,11 +51,11 @@ Output - Dados apresentados na tela
 
 Printf(); - Insere uma string no Output
 
-sintaxe: printf("teste");
+sintaxe: `printf("teste");`
 
 Scanf(); - Lê input do usuário e armazena em alguma variável
 
-sintaxe: scanf("%tipof", &variavel);
+sintaxe: `scanf("%tipof", &variavel);`
 
 ## Operadores 
 

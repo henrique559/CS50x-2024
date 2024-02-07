@@ -20,27 +20,16 @@ Variáveis servem para guardar valores na memória.
 Tipos Inteiros:
 Int - `4 Bytes`
 
-Formatação: `%d ou %i`
-
-
 Long - `8 Bytes`
-
-Formatação: `%ld`
 
 Tipos de ponto flutuante:
 Float - `8 Bytes`
 
-Formatação:` %f`
-
-
 Double - `8 Bytes (Mais precisão)`
-
-Formatação: `%lf`
 
 Caracteres:
 Char - `1 Byte`
 
-Formatação: `%c`
 
 Outros:
 Unsigned - Utilizado para descartar os números negativos. tipo de formatação: `%u+tipo`

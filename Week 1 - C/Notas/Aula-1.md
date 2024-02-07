@@ -18,19 +18,29 @@ int main(void)
 Variáveis servem para guardar valores na memória.
 
 Tipos Inteiros:
-Short - `2 Bytes`, tipo de formatação: `%sd`
+Int - `4 Bytes`
 
-Int - `4 Bytes`, tipo de formatação: `%d ou %i`.
+Formatação: `%d ou %i`
 
-Long - `8 Bytes`, tipo de formatação: `%ld`
+
+Long - `8 Bytes`
+
+Formatação: `%ld`
 
 Tipos de ponto flutuante:
-Float - `8 Bytes`, tipo de formatação:` %f`
+Float - `8 Bytes`
 
-Double - `8 Bytes (Mais precisão)`, tipo de formatação: `%lf`
+Formatação:` %f`
+
+
+Double - `8 Bytes (Mais precisão)`
+
+Formatação: `%lf`
 
 Caracteres:
-Char - `1 Byte`, tipo de formatação: `%c`;
+Char - `1 Byte`
+
+Formatação: `%c`
 
 Outros:
 Unsigned - Utilizado para descartar os números negativos. tipo de formatação: `%u+tipo`

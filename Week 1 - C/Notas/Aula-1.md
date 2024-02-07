@@ -53,7 +53,19 @@ Printf(); - Insere uma string no Output
 
 sintaxe: printf("teste");
 
-Scanf(); - Lê input do usuário e armazena na
+Scanf(); - Lê input do usuário e armazena em alguma variável
+
+sintaxe: scanf("%tipof", &variavel);
+
+## Operadores 
+
+- Aritmética `+ - * / %`
+- Boolean `true false 0 1`, any number > 0 is true
+- Logico `&& (AND) || (OR)`
+- Not `!x`
+- Relacional `< > <= >=`
+- Equalidade `==`
+- Inequalidade `!==`
 
 ## Estrutura de condição e repetição
 Estrutura de condição serve para controlar o fluxo do programa.
@@ -61,19 +73,12 @@ Estrutura de condição serve para controlar o fluxo do programa.
 sintaxe if/else:
 if(condição)
 
-{
-
   instrução
-
-}
 
 else 
 
-{
-
   instrução
 
-}
 
 else if (condição) => aninhamento de if/elses
 
@@ -95,23 +100,9 @@ sintaxe while loop:
 
 while(condição)
 
-{
-  instruções
-
-  incremento
-
-}
-
 sintaxe for loop:
 
 for(inicialização;condição;incremento)
-
-{
-
-  instruções;
-
-}
-
 
 ex: Um programa que repete a string "Olá" 10 vezes na tela.
 

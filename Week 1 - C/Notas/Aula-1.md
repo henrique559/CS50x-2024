@@ -3,12 +3,6 @@
 ## Linguagem C
 todo
 
-## Compiladores
-todo
-
-## Sintaxe básica da linguagem C
-todo
-
 ## Variaveis
 todo
 
@@ -27,5 +21,4 @@ todo
 ## Float-Point Imprecision
 todo
 
-## Problem sets
-todo
+

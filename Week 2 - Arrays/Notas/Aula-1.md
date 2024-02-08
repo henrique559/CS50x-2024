@@ -26,7 +26,17 @@ e manipulação das variáveis em tempo real.
 verificar erros.
 
 ## Memoria
-todo
+Variáveis utilizam uma quantidade finita de espaço alocado na memória RAM do computador
+> Por exemplo: um valor de tipo Int pode ocupar apenas 4 bytes na mémoria.
+> Por outro lado: um valor de tipo String pode ocupar N bytes na mémoria, dependendo da quantidade de letras (chars)
+inseridas pelo usuário.
+
+![image](https://github.com/henrique559/CS50x-2024/assets/145483144/8061842d-2067-4015-a542-7cfa93be3b5b)
+> Imagem de uma memória ram Real
+
+
+
+
 
 ## Arrays
 todo

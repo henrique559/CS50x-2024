@@ -15,7 +15,7 @@ int funcaoexemplo (string teste);
 ```
 - Compiling: Transforma o código de C para Assembly
 - Assembling: Transforma o seu código de Assembly para codigo binário
-- Linking: Localiza bibliotecas e códigos com funções utilizadas no seu programa procurando pelo seu HD/SSD e junta os códigos binários de todos  
+- Linking: Localiza bibliotecas e códigos com funções utilizadas no seu programa procurando pelo seu HD/SSD e junta os códigos binários de todos os programas.
 
 ## Debugging
 Métodos para resolver erros semânticos (Erros de lógica) no seu seu código.

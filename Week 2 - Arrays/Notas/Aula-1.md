@@ -9,8 +9,6 @@ Um compilador trabalha em 4 etapas:
 - Pré-processing: O Compilador reconhece bibliotecas e funções definidas pelo usuário
 ```c
 #define <stdio.h>
-#define <seuprograma.h>
-
 int funcaoexemplo (string teste);
 ```
 - Compiling: Transforma o código de C para Assembly

@@ -28,7 +28,7 @@ verificar erros.
 ## Memoria
 Uma memória RAM tem uma quantidade certa de espaço (Normalmente 8GB ou 4GB), porém, cada espaço é representado em bilhões ou trilhões de bytes, esses bytes servem para armazenar dados (int, float, char etc...) e cada 1 byte tem um endereço que aponta a localização para esse mesmo byte ser indentificado por softwares ou por até mesmo pelo programador utilizando ponteiros.
 
-![image](https://github.com/henrique559/CS50x-2024/assets/145483144/8061842d-2067-4015-a542-7cfa93be3b5b)
+![image](https://github.com/henrique559/CS50x-2024/assets/145483144/93eebdb2-a7e8-4a35-855f-e6c4a4e4fb7b)
 
 Variáveis utilizam uma quantidade finita de espaço alocado na memória RAM do computador
 

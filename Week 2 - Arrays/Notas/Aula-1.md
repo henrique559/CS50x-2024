@@ -27,12 +27,13 @@ verificar erros.
 
 ## Memoria
 Variáveis utilizam uma quantidade finita de espaço alocado na memória RAM do computador
-> Por exemplo: um valor de tipo Int pode ocupar apenas 4 bytes na mémoria.
-> Por outro lado: um valor de tipo String pode ocupar N bytes na mémoria, dependendo da quantidade de letras (chars)
-inseridas pelo usuário.
+> Por exemplo: um valor de tipo Int pode ocupar apenas 4 bytes na mémoria, por outro lado um valor de tipo String pode ocupar N bytes na mémoria, dependendo da quantidade de letras (chars)inseridas pelo usuário.
 
 ![image](https://github.com/henrique559/CS50x-2024/assets/145483144/8061842d-2067-4015-a542-7cfa93be3b5b)
-> Imagem de uma memória ram Real
+
+> Random Acess Memory
+
+Uma memória RAM tem uma quantidade certa de espaço (Normalmente 8GB ou 4GB), porém, cada espaço é representado em bilhões ou trilhões de bytes, esses bytes servem para armazenar dados (int, float, char etc...) e cada 1 byte tem um endereço que aponta a localização para esse mesmo byte ser indentificado por softwares ou por até mesmo pelo programador utilizando ponteiros.
 
 
 

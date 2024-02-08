@@ -17,12 +17,12 @@ int funcaoexemplo (string teste);
 
 ## Debugging
 Métodos para resolver erros semânticos (Erros de lógica) no seu seu código.
-- Printf(): Método que utiliza a função printf para ver a funcionalidade do seu código com a finalidade
+- `Printf()`: Método que utiliza a função printf para ver a funcionalidade do seu código com a finalidade
 de descobrir onde está o erro.
-- Debugger: Método utilizado em IDE's onde você pode selecionar qual parte do programa você deseja analisar de forma manual
+- `Debugger`: Método utilizado em IDE's onde você pode selecionar qual parte do programa você deseja analisar de forma manual
 por exemplo: ver passo a passo da execução de um for loop possibilitando ver com eficiência oque está acontecendo com o seu código
 e manipulação das variáveis em tempo real.
-- Rubber Duck Debugging: Método no qual você utiliza um objeto inanimado para verbalizar o funcionamento do seu código, é excelente para
+- `Rubber Duck Debugging`: Método no qual você utiliza um objeto inanimado para verbalizar o funcionamento do seu código, é excelente para
 verificar erros.
 
 ## Memoria

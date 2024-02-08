@@ -56,5 +56,28 @@ Onde temos a quantidade de bytes alocado dependendo do tipo do valor, o valor da
 
 
 ## Arrays
-todo
+
+Array é um tipo de estrutura de dados que aloca valores na memória ram de forma sequencial dependendo do tamanho declarado pelo usuário e do tipo da variável. 
+
+por exemplo: um array do tipo int com 4 números terá 4 espaços de 4 bytes cada alocados na memória, ou um array de chars (strings) escrito "Hello" terá 5 espaços na memória com cada letra representando 1 byte.
+
+Definição de uma Array: `int numero[4]` <- Toda array começa pelo zero, ou seja, o valor na verdade é N-1, declarei 4 porém o valor será 5
+```c
+#include <stdio.h>
+#define N 3
+
+int main(void)
+{
+  int scores[N];
+
+  for(int i = 0; i < N; i++)
+      scores[i] = get_int("Score: ");
+
+  printf("Average: %f\n, (scores[0] + scores[1] + scores[2]) / (float) N);
+}
+```
+> score.c
+
+Array é um tipo de referência, ou seja, os valores alocados na memória estão no heap (onde tipos de referencia vivem) porque o software trabalha apenas com a referência do primeiro valor de uma array, não os valores de toda a array.
+(&array[0] == int array[3])
 
